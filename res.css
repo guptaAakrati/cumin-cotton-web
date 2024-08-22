@@ -1,0 +1,288 @@
+@media only screen and (max-width:980px){
+  .left-icon{
+    width: 60%;
+ }
+ .left-icon span{
+  margin-left: 20px;
+  font-size: 14px;
+ }
+ .right-icon{
+  width: 62%;
+ }
+ .right-icon i{
+  font-size: 15px;
+  margin-right: 8px;
+ }
+ .right-icon span{
+  font-size: 14px;
+ }
+ .navbar{
+  height: 10vh;
+ }
+ .left-navbar{
+  width: 50%;
+ }
+ .left-navbar img{
+  margin: 10px 20px;
+ }
+ .left-navbar p{
+  padding: 10px 0px;
+  font-size: 16px;
+  /* margin-left: -14vw; */
+ }
+ .right-navbar{
+  width: 50%;
+  margin-left: 0px;
+  margin-top: 16px;
+ }
+ .right-navbar ul{
+  display: flex;
+  text-align: left;
+  width: 95%;
+
+ }
+ .right-navbar ul li{
+   /* margin: 3px; */
+ }
+ .right-navbar ul li {
+  padding: 5% 4%;
+  font-size: 14px;
+ }
+ .owl-carousel .item img{
+  height: 35vh;
+ }
+ .about-sec-second h2{
+  font-size: 22px
+ }
+ .about p{
+  font-size: 13px;
+ }
+ .about-sec-first img {
+  width: 48vw;
+  margin: 5vw 0px 0px 20px;
+  height: 28vh;
+}
+.client-thought span{
+  font-size: 25px
+}
+.client-thought p{
+  font-size: 15px;
+}
+.client-img img{
+  width: 45vw;
+  margin-top: 20%;
+  height: 30vh;
+  }
+  .client{
+    margin-top: 24%;
+  }
+
+.jeera-sec .jeera-card{
+  padding: 0px;
+}
+.jeera-sec .details h1, p {
+  width: 100%;
+  padding: 10px;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  justify-content: center;
+  font-size: 15px;
+}
+.client-thought p{
+  padding: 20px 5px;
+  width: 98%;
+  margin-left: 0px;
+}
+.client-thought span {
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px 0px #c83232b0;
+  margin-right: 35px;
+}
+
+.jeera-card .details img{
+  height: 200px;
+}
+.jeera-sec .details p{
+  padding: 20px 10px;
+  font-size: 13px;
+}
+.jeera-sec .jeera-card{
+  /* padding: 20px; */
+  padding-bottom: 0px;
+  /* margin: 20px; */
+  margin-bottom: 0px;
+  width: 90%;
+}
+.jeera-sec .jeera-card {
+  /* padding: 20px; */
+  padding-bottom: 0px;
+  margin: 20px;
+    margin-bottom: 20px;
+  margin-bottom: 0px;
+  width: 90%;
+}
+.service h1{
+  margin-top: 12vh;
+  margin-bottom: 20px;
+}
+}
+
+
+@media only screen and (max-width:500px) {
+   
+    .left-icon{
+        width: 100%;
+     }
+    .left-icon p{
+    width: 70%;
+    /* font-size: 20px; */
+  }
+  .left-icon span{
+    display: none;
+  }
+  .right-icon{
+    display: none;
+  }
+  /* --------------------------------------------- */
+
+  .left-navbar{
+    width: 60%;
+  }
+  .left-navbar img{
+    height: 30px;
+   margin: 27px 0px 20px 20px;
+  }
+  .left-navbar p{
+    /* font-size: 22px; */
+  }
+  .left-navbar p{
+    font-size: 18px;
+    padding: 0px 10px;
+  }
+ 
+  .left-navbar h2{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .right-navbar{
+    text-align: center;
+  }
+  .responsive{
+    display: none;
+  }
+  .humburg{
+    display: block;
+    top: 25%;
+  }
+  .owl-carousel .item img{
+    height: 25vh;
+    width: 90%;
+    margin: auto;
+  }
+  .details{
+    width: 100%;
+  }
+  .details img{
+    /* display: ; */
+    /* background-size: cover; */
+    width: 100%;
+    height: 170px;
+}
+.details p {
+  font-size: 12px;
+}
+.details h1{
+  font-size: 16px;
+}
+.about{
+  margin-top: 26%;
+}
+.about-sec{
+  flex-direction: column;
+}
+.about .about-sec-first{
+  width: 100%;
+  margin-right: 20px;
+}
+.about-sec-second{
+  width: 100%;
+}
+.about-sec-first img{
+  width: 65vw;
+  margin: auto;
+  display: flex;
+}
+.about h1{
+  text-align: center;
+  font-size: 22px;
+  width: 90%;
+  color: #8c3030;
+  margin-bottom: 7vw;
+  /* text-align: center; */
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.about p{
+  width: 100%;
+}
+.about-sec-second h2{
+  /* align-items: center; */
+  margin-top: 30px;
+  font-size: 22px;
+}
+.service h1{
+  font-size: 25px;
+  margin-top: 7vh;
+}
+.jeera-sec{
+  flex-direction: column;
+}
+.client{
+  flex-direction: column-reverse;
+  margin-top: 10vh;
+}
+.client-img{
+  width: 100%;
+}
+.client-img img{
+  width: 80%;
+  margin: 20px;
+}
+.client-thought span{
+  font-size: 20px;
+  padding: 20px 16px 20px 16px;
+}
+.client-thought p{
+  width: 100%;
+  font-size: 16px;
+  padding: 20px 10px;
+  margin-left: 0px;
+}
+.footer-sec{
+   flex-direction: column;
+}
+.sec-one .link{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.sec-one img{
+  display: none;
+}
+.sec-two h2{
+  justify-content: center;
+  display: flex;
+}
+.sec-two p{
+  padding: 5px;
+}
+ 
+}
+/* padding: 0px 10px */
+/* font-size: 10px */
+
+
